@@ -1,0 +1,390 @@
+.all {
+  font-family: "Gemunu Libre", sans-serif;
+}
+.body {
+  text-align: center;
+  background-color: snow;
+  font-family: "Gemunu Libre", sans-serif;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: rgb(12, 12, 118);
+}
+.home{
+  margin-bottom: -10px;
+}
+.home img{
+  margin-top: 5px;
+}
+
+.menu {
+  width: 1000px;
+  margin: 0px auto;
+  height: 43px;
+}
+.menu a {
+  transition: all linear 0.15s;
+  text-decoration: none;
+}
+.menu li:hover > a {
+  text-decoration: none;
+  color: red;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+}
+.menu ul li a {
+  padding: 10px 30px;
+  display: inline-block;
+  color: white;
+}
+
+.menu li:hover .sub {
+  z-index: 1;
+  opacity: 1;
+}
+.sub {
+  width: 110%;
+  padding: 5px 0px;
+  position: absolute;
+  top: 100%;
+  left: -15px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: rgb(0, 115, 255);
+}
+.sub li {
+  display: block;
+}
+
+.sub li a{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu > a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+/* wiki */
+
+.wiki {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.information > p {
+  font-size: 22.5px;
+}
+
+.title {
+  position: absolute;
+  height: 60px;
+  background-color: rgb(0, 0, 216);
+  width: 26%;
+  right: 60px;
+}
+.title p {
+  position: absolute;
+  right: 30px;
+  top: -23px;
+  color: snow;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.batman {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  margin-top: 20px;
+}
+.batman .avatar {
+  padding-top: 15px;
+  padding-left: 25px;
+  width: 30%;
+}
+.batman .avatar img {
+  width: 65%;
+}
+.batman .information {
+  margin-left: -50px;
+  margin-top: 30px;
+  width: 65%;
+}
+.batman .information h1 {
+  color: red;
+}
+.batman .information p {
+  color: white;
+}
+
+.nightwing {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  height: 450px;
+}
+.nightwing .avatar {
+  width: 30%;
+  padding-top: 20px;
+}
+.nightwing .avatar img {
+  width: 65%;
+  margin-left: 100px;
+}
+.nightwing .information {
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 50px;
+}
+.nightwing .information p {
+  color: white;
+}
+.nightwing .information h1 {
+  color: red;
+}
+
+/* BATMAN */
+.conteiner {
+  margin-top: 10px;
+  position: relative;
+  height: 620px;
+  background-image: url(../ASM/image/wonderw/wwwwwwwwwwww.jpg);
+}
+
+.conteiner .avatar {
+  position: relative;
+  left: 160px;
+  top: 240px;
+}
+.name {
+  position: relative;
+  left: 430px;
+}
+.name p {
+  margin-top: -20px;
+  font-weight: bold;
+  color: rgb(0, 115, 255);
+  font-size: 30px;
+}
+.name h1 {
+  margin-top: -25px;
+  color: snow;
+  font-size: 60px;
+}
+
+.trophy {
+  position: relative;
+  left: 550px;
+  bottom: 0px;
+}
+.trophy img {
+  margin-right: 30px;
+  border-radius: 5px;
+}
+.trophy img:hover {
+  border-radius: 0px;
+  transform: scale(1.2);
+}
+.text p {
+  margin-top: -20px;
+  position: relative;
+  left: 430px;
+  color: white;
+  font-size: 25px;
+}
+
+/* comic */
+.comic {
+  float: left;
+  margin-top: 40px;
+  width: 100%;
+  background-color: rgb(59, 58, 58);
+  height: 1290px;
+  position: relative;
+}
+
+.comic > p {
+  background-color: rgb(0, 0, 216);
+  color: white;
+  width: 25%;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: -20px;
+  line-height: 60px;
+  padding-left: 5px;
+}
+
+.comic .collum {
+  width: 25%;
+  float: left;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+
+.comic .mini {
+  height: 200px;
+  margin-bottom: 370px;
+}
+
+.mini img {
+  margin-top: 80px;
+  margin-left: 35px;
+  width: 85%;
+}
+
+.mini p {
+  color: white;
+  margin-left: 35px;
+  margin-top: 7px;
+}
+.mini h3 {
+  color: blue;
+  margin-left: 35px;
+  margin-top: -15px;
+}
+
+/*pick*/
+.time {
+  position: absolute;
+}
+
+.this {
+  position: relative;
+  text-decoration: none;
+  background-color: rgb(0, 0, 216);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  right: -975px;
+  top: -45px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.this:hover {
+  background-color: red;
+}
+
+#chon {
+  background-color: rgb(197, 0, 35);
+}
+
+/* page */
+
+.page {
+  position: absolute;
+  bottom: 25px;
+  left: 42%;
+  display: flex;
+}
+.home-btn {
+  background-color: snow;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+#pick {
+  background-color: red;
+}
+.home-btn:hover {
+  background-color: blue;
+  transform: scale(1.5);
+}
+
+/* footer */
+.footer {
+  position: relative;
+  background-image: url(../ASM/image/FOOTER\ final.jpg);
+  height: 500px;
+  border-radius: 10px;
+  bottom: -1331px;
+}
+
+.footer .text-1 {
+  color: snow;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-1 p {
+  line-height: 10px;
+}
+
+.footer .text-2 {
+  color: snow;
+  position: absolute;
+  left: 350px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-2 p {
+  line-height: 10px;
+}
+
+.footer .text-3 {
+  color: snow;
+  position: absolute;
+  left: 540px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-3 p {
+  line-height: 10px;
+}
+
+.footer .text-4 {
+  color: snow;
+  position: absolute;
+  left: 160px;
+  bottom: 90px;
+  text-align: left;
+}
+.footer .text-4 p {
+  line-height: 10px;
+}
+
+.footer .text-5 {
+  color: snow;
+  position: absolute;
+  left: 250px;
+  bottom: 0px;
+  text-align: left;
+}
+.footer .text-5 p {
+  line-height: 10px;
+  font-size: 23px;
+}
+.footer .text-5 p:hover {
+  color: red;
+}
+.footer p:hover {
+  color: blue;
+  transform: scale(1.1);
+}

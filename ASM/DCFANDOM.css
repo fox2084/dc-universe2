@@ -1,0 +1,380 @@
+.all {
+  font-family: "Gemunu Libre", sans-serif;
+}
+.body {
+  text-align: center;
+  background-color: snow;
+  font-family: "Gemunu Libre", sans-serif;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: rgb(12, 12, 118);
+}
+.home {
+  margin-bottom: -10px;
+}
+.home img {
+  margin-top: 5px;
+}
+.menu {
+  width: 1000px;
+  margin: 0px auto;
+  height: 43px;
+}
+.menu a {
+  transition: all linear 0.15s;
+  text-decoration: none;
+}
+.menu li:hover > a {
+  text-decoration: none;
+  color: red;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+}
+.menu ul li a {
+  padding: 10px 30px;
+  display: inline-block;
+  color: white;
+}
+
+.menu li:hover .sub {
+  z-index: 1;
+  opacity: 1;
+}
+.sub {
+  width: 110%;
+  padding: 5px 0px;
+  position: absolute;
+  top: 100%;
+  left: -15px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: rgb(0, 115, 255);
+}
+.sub li {
+  display: block;
+}
+
+.sub li a {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu > a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* DC FANDOME */
+
+.fandom p {
+  color: white;
+}
+.fandom p:hover {
+  color: red;
+}
+
+.top {
+  background-color: rgb(130, 130, 130);
+  height: 1620px;
+}
+
+.top .mid {
+  width: 100%;
+  margin-top: 5px;
+}
+.mid img {
+  width: 100%;
+}
+.top .left {
+  position: absolute;
+  height: 500px;
+  left: 5px;
+  top: 610px;
+}
+.top .right {
+  position: absolute;
+  height: 500px;
+  top: 610px;
+  right: 5px;
+}
+.top .timeline {
+  margin-top: 0px;
+  width: 90%;
+  height: 530px;
+  margin-left: 70px;
+}
+.revealed h2 {
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+.revealed h2:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.top h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.top h1:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+/* fandom-vid */
+
+.fandom-vid {
+  margin-top: 5px;
+  margin-bottom: -1360px;
+}
+.batman video {
+  margin-left: 50px;
+}
+
+.batman .image-left {
+  width: 17%;
+  height: 465px;
+  margin-left: 30px;
+}
+.batman .image-right {
+  position: absolute;
+  width: 25%;
+  right: -15px;
+  top: 250%;
+}
+
+.batman p {
+  font-size: 25px;
+  margin-left: 39%;
+  margin-top: -3px;
+  margin-bottom: 30px;
+}
+
+.flash video {
+  width: 55%;
+  margin-left: 340px;
+}
+.flash .image-left {
+  position: absolute;
+  width: 32%;
+  top: 335%;
+  left: -50px;
+}
+.flash .image-right {
+  width: 17%;
+  height: 465px;
+  float: right;
+  margin-top: -32.2%;
+  margin-right: 30px;
+}
+
+.flash p {
+  font-size: 25px;
+  margin-left: 39%;
+  margin-top: -3px;
+  margin-bottom: -10px;
+}
+
+.peacemaker video {
+  margin-left: 50px;
+}
+
+.peacemaker .image-left {
+  width: 17%;
+  height: 465px;
+  margin-left: 30px;
+}
+.peacemaker .image-right {
+  position: absolute;
+  width: 19%;
+  right: 30px;
+  top: 405%;
+}
+
+.peacemaker p {
+  font-size: 25px;
+  margin-left: 36%;
+  margin-top: -3px;
+  margin-bottom: 50px;
+}
+
+.suicidesquad video {
+  width: 55%;
+  margin-left: 340px;
+}
+.suicidesquad .image-left {
+  position: absolute;
+  width: 24%;
+  top: 475%;
+  left: 0px;
+}
+.suicidesquad .image-right {
+  width: 17%;
+  height: 475px;
+  float: right;
+  margin-top: -34.6%;
+  margin-right: 30px;
+}
+
+.suicidesquad p {
+  font-size: 25px;
+  margin-left: 25%;
+  margin-top: -3px;
+}
+
+.aquaman video {
+  margin-left: 50px;
+}
+.aquaman .image-left {
+  width: 17%;
+  height: 465px;
+  margin-left: 30px;
+}
+.aquaman .image-right {
+  position: absolute;
+  width: 21.5%;
+  right: 30px;
+  top: 545%;
+}
+.aquaman p {
+  font-size: 25px;
+  margin-left: 36%;
+  margin-top: -3px;
+  margin-bottom: 50px;
+}
+
+.blackadam video {
+  width: 55%;
+  margin-left: 340px;
+}
+.blackadam .image-left {
+  position: absolute;
+  width: 40%;
+  top: 639%;
+  left: -150px;
+}
+.blackadam .image-right {
+  width: 17%;
+  height: 475px;
+  float: right;
+  margin-top: -34.6%;
+  margin-right: 30px;
+}
+
+.blackadam p {
+  font-size: 25px;
+  margin-left: 36.5%;
+  margin-top: -3px;
+}
+
+.gotham video {
+  margin-left: 50px;
+}
+.gotham .image-left {
+  width: 17%;
+  height: 465px;
+  margin-left: 30px;
+}
+.gotham .image-right {
+  z-index: 3;
+  position: absolute;
+  width: 23%;
+  right: 30px;
+  top: 717%;
+}
+.gotham p {
+  font-size: 25px;
+  margin-left: 36%;
+  margin-top: -3px;
+  margin-bottom: 50px;
+}
+
+
+/* footer */
+.footer {
+  position: relative;
+  background-image: url(../ASM/image/FOOTER\ final.jpg);
+  height: 500px;
+  border-radius: 10px;
+  bottom: -1320px;
+}
+
+.footer .text-1 {
+  color: snow;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-1 p {
+  line-height: 10px;
+}
+
+.footer .text-2 {
+  color: snow;
+  position: absolute;
+  left: 350px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-2 p {
+  line-height: 10px;
+}
+
+.footer .text-3 {
+  color: snow;
+  position: absolute;
+  left: 540px;
+  top: 30px;
+  text-align: left;
+}
+.footer .text-3 p {
+  line-height: 10px;
+}
+
+.footer .text-4 {
+  color: snow;
+  position: absolute;
+  left: 160px;
+  bottom: 90px;
+  text-align: left;
+}
+.footer .text-4 p {
+  line-height: 10px;
+}
+
+.footer .text-5 {
+  color: snow;
+  position: absolute;
+  left: 250px;
+  bottom: 0px;
+  text-align: left;
+}
+.footer .text-5 p {
+  line-height: 10px;
+  font-size: 23px;
+}
+.footer .text-5 p:hover {
+  color: red;
+}
+.footer p:hover {
+  color: blue;
+  transform: scale(1.1);
+}
